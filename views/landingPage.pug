@@ -1,0 +1,27 @@
+doctype html
+html(lang="en")
+    head
+        meta(charset="UTF-8")
+        meta(http-equiv="X-UA-Compatible", content="IE=edge")
+        meta(name="viewport", content="width=device-width, initial-scale=1.0")
+        link(rel="stylesheet", href="./style/main.css")
+        title LandingPage
+    body.flower
+        header
+            nav
+                ul
+                    li
+                        a(href="/") Home
+                    li#login
+                        a(href="/login") Login
+                    li
+                        a(href="/register") Register
+        main.landing
+            div.land
+                h1 TAKE YOUR CHESS GAME TO THE NEXT LEVEL
+                p.land Connect with top ranked chess players from the world and learn the secret to becoming a chess master.
+                input(type="submit", value="BECOME A MASTER")
+            img(src="./images/chess.jpg", alt="chess")
+            
+        footer
+            p &copy; 2021

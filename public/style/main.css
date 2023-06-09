@@ -1,0 +1,142 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    background-color: #16151b;
+}
+.landing{
+    display: flex;
+
+}
+.land{
+    text-align: start;
+    border:1px solid #16151b;
+    width: 500px;
+    color: white;
+    padding: 50px 30px 20px 40px;
+}
+.land p{
+    padding: 40px 40px 40px 10px;
+}
+.landing img{
+    height: 500px;
+    width: 500px;
+    text-align: end;
+    padding-top: 5px;
+}
+.land input{
+    border: #fff;
+    padding: 15px;
+    border-radius: 20px;
+    text-align: center;
+    font-weight: bold;
+    font-style: italic;
+
+}
+a {
+    text-decoration: none;
+    color: #16151b;
+}
+
+ul {
+    list-style: none;
+}
+
+header > nav {
+    background-color: #16151b;
+    color: #16151b;
+    padding: 1rem;
+}
+
+header > nav > ul {
+    display: grid;
+    grid-template-columns: 100px 1fr 100px 100px;
+    align-items: center;
+    justify-items: center;
+}
+
+header > nav > ul > li > a {
+    color: #fff;
+    text-decoration: none;
+    margin-right: 40px;
+    padding: 9px 10px;
+    border-radius: 30px;
+    
+}
+
+header > nav > ul > li > a:hover {
+    color:white;
+    background-color:#545454;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-family: serif;
+}
+
+#login {
+    grid-column: 3 / 4;
+}
+
+form {
+    border:1px solid #545454;
+    border-radius: 30px;
+    background-color: #545454;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 1rem;
+    padding: 1rem;
+    width: 300px;
+    margin: 0 auto;
+}
+
+form > div {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 1rem;
+}
+
+form > label {
+    display: block;
+    color: white;
+    font-style: italic;
+}
+
+form > input {
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 30px;
+}
+
+form > input:focus {
+    outline: none;
+    border-color: #333;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 1rem;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+}
+
+.page404 {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 1rem;
+    padding: 1rem;
+    width: 300px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.page404 > img {
+    width: 100%;
+}
